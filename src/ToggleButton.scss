@@ -1,0 +1,10 @@
+/**
+ * @date 14/03/2018
+ * @author Martin Gabor
+ */
+
+.ToggleButton {
+    color: white;
+    &.On  {  background-color: green;  }
+    &.Off {  background-color: red;  }
+}
