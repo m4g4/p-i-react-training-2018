@@ -14,8 +14,9 @@ class CounterPanel extends React.Component {
 
     render() {
         return (
-            <div>
+            <div style={{border: '1px solid red', padding: '20px'}}>
                 <SimpleCounter on={this.state.on}/>
+
                 <ToggleButton on={this.state.on}
                               onClick={this.onClick}/>
             </div>
